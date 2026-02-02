@@ -1,0 +1,166 @@
+
+[
+
+  {
+      "name": "Old Fashioned",
+      "spiritType": "Whiskey",
+      "flavorProfile": "Sweet",
+      "ingredients": ["Whiskey", "Bitters", "Sugar", "Orange peel"],
+      "instructions": "Mix whiskey, bitters, and sugar in a glass. Garnish with orange peel.",
+      "image": "./img/OldFashioned.jpeg"
+
+    },
+    {
+      "name": "Margarita",
+      "spiritType": "Tequila",
+      "flavorProfile": "Sour",
+      "ingredients": ["Tequila", "Lime juice", "Triple sec", "Salt"],
+      "instructions": "Mix tequila, lime juice, and triple sec in a glass. Rim with salt.",
+      "image": "./img/Margarita.jpg"
+
+    },
+    {
+      "name": "Cosmopolitan",
+      "spiritType": "Vodka",
+      "flavorProfile": "Fruity",
+      "ingredients": ["Vodka", "Triple sec", "Cranberry juice", "Lime juice"],
+      "instructions": "Mix vodka, triple sec, cranberry juice, and lime juice in a glass. Garnish with lime wheel.",
+      "image": "./img/Cosmopolitan.jpeg"
+    },
+    {
+      "name": "Gin and Tonic",
+      "spiritType": "Gin",
+      "flavorProfile": "Crisp",
+      "ingredients": ["Gin", "Tonic water", "Lime"],
+      "instructions": "Mix gin and tonic water in a glass. Garnish with lime.",
+      "image": "./img/GinTonic.jpg"
+    },
+    {
+      "name": "Mojito",
+      "spiritType": "Rum",
+      "flavorProfile": "Herbal",
+      "ingredients": ["Rum", "Lime juice", "Mint leaves", "Soda water"],
+      "instructions": "Mix rum, lime juice, and mint leaves in a glass. Top with soda water.",
+      "image": "./img/Mojito.jpg"
+    },
+    {
+      "name": "Pina Colada",
+      "spiritType": "Rum",
+      "flavorProfile": "Sweet",
+      "ingredients": ["Rum", "Pineapple juice", "Coconut cream"],
+      "instructions": "Mix rum, pineapple juice, and coconut cream in a glass. Garnish with pineapple wedge and cherry.",
+      "image": "./img/pinaColada.jpeg"
+    },
+    {
+      "name": "Whiskey Sour",
+      "spiritType": "Whiskey",
+      "flavorProfile": "Sour",
+      "ingredients": ["Whiskey", "Lemon juice", "Simple syrup"],
+      "instructions": "Mix whiskey, lemon juice, and simple syrup in a glass. Garnish with lemon wheel.",
+      "image": "./img/WhiskeySour.jpg"
+    },
+    {
+      "name": "Caipirinha",
+      "spiritType": "Cachaça",
+      "flavorProfile": "Fruity",
+      "ingredients": ["Cachaça", "Lime wedges", "Sugar"],
+      "instructions": "Muddle lime wedges and sugar in a glass. Add cachaça and stir.",
+      "image": "./img/Caipirinha.jpg"
+    },
+    {
+      "name": "Dark 'N' Stormy",
+      "spiritType": "Rum",
+      "flavorProfile": "Spicy",
+      "ingredients": ["Rum", "Ginger beer", "Lime juice"],
+      "instructions": "Mix rum, ginger beer, and lime juice in a glass. Garnish with lime wedge.",
+      "image": "./img/DarkNStormy.jpeg"
+    },
+    {
+      "name": "Sidecar",
+      "spiritType": "Cognac",
+      "flavorProfile": "Sweet",
+      "ingredients": ["Cognac", "Cointreau", "Lemon juice"],
+      "instructions": "Mix cognac, Cointreau, and lemon juice in a glass. Garnish with lemon wheel.",
+      "image": "./img/Sidecar.jpg"
+    },
+    {
+      "name": "Moscow Mule",
+      "spiritType": "Vodka",
+      "flavorProfile": "Spicy",
+      "ingredients": ["Vodka", "Ginger beer", "Lime juice"],
+      "instructions": "Mix vodka, ginger beer, and lime juice in a copper mug. Garnish with lime wedge and mint sprig.",
+      "image": "./img/moscowMule.jpeg"
+    },
+    {
+      "name": "Daiquiri",
+      "spiritType": "Rum",
+      "flavorProfile": "Sweet",
+      "ingredients": ["Rum", "Lime juice", "Simple syrup"],
+      "instructions": "Mix rum, lime juice, and simple syrup in a glass. Garnish with lime wheel.",
+      "image": "./img/Daiquiri.jpg"
+    },
+    {
+      "name": "Sazerac",
+      "spiritType": "Whiskey",
+      "flavorProfile": "Herbal",
+      "ingredients": ["Whiskey", "Absinthe", "Bitters", "Sugar"],
+      "instructions": "Mix whiskey, absinthe, bitters, and sugar in a glass. Garnish with lemon twist.",
+      "image": "./img/Sazerac.jpg"
+    },
+    {
+      "name": "Pimm's Cup",
+      "spiritType": "Gin",
+      "flavorProfile": "Fruity",
+      "ingredients": ["Pimm's No. 1", "Lemonade", "Garnish with cucumber and mint"],
+      "instructions": "Mix Pimm's No. 1 and lemonade in a glass. Garnish with cucumber and mint.",
+      "image": "./img/Pimmscup.jpg"
+    },
+    {
+      "name": "Espresso Martini",
+      "spiritType": "Vodka",
+      "flavorProfile": "Rich",
+      "ingredients": ["Vodka", "Espresso", "Kahlúa", "Sugar"],
+      "instructions": "Mix vodka, espresso, Kahlúa, and sugar in a glass. Garnish with coffee beans.",
+      "image": "./img/EspressoMartini.jpg"
+    },
+    {
+      "name": "French 75",
+      "spiritType": "Gin",
+      "flavorProfile": "Crisp",
+      "ingredients": ["Gin", "Lemon juice", "Sugar", "Champagne"],
+      "instructions": "Mix gin, lemon juice, and sugar in a glass. Top with champagne. Garnish with lemon twist.",
+      "image":"./img/French75.jpg"
+    },
+    {
+      "name": " Mai Tai",
+      "spiritType": "Rum",
+      "flavorProfile": "Fruity",
+      "ingredients": ["Rum", "Orange curaçao", "Lime juice", "Orgeat syrup"],
+      "instructions": "Mix rum, orange curaçao, lime juice, and orgeat syrup in a glass. Garnish with mint sprig and cherry.",
+      "image": "./img/MaiTai.jpeg"
+    },
+    {
+      "name": "Negroni",
+      "spiritType": "Gin",
+      "flavorProfile": "Bitter",
+      "ingredients": ["Gin", "Campari", "Sweet vermouth"],
+      "instructions": "Mix gin, Campari, and sweet vermouth in a glass. Garnish with orange twist.",
+      "image": "./img/Negroni.jpg"
+    },
+    {
+      "name": "Cuba Libre",
+      "spiritType": "Rum",
+      "flavorProfile": "Sweet",
+      "ingredients": ["Rum", "Coca-Cola", "Lime juice"],
+      "instructions": "Mix rum and Coca-Cola in a glass. Squeeze in lime juice. Garnish with lime wedge.",
+      "image": "./img/cubaLibre.jpeg"
+    },
+    {
+      "name": "Bee's Knees",
+      "spiritType": "Gin",
+      "flavorProfile": "Sweet",
+      "ingredients": ["Gin", "Honey syrup", "Lemon juice"],
+      "instructions": "Mix gin, honey syrup, and lemon juice in a glass. Garnish with lemon wheel.",
+      "image": "./img/beesKnees.jpeg"
+    }
+  ]

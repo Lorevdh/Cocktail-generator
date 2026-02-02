@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cocktail Generator</title>
+  <link rel="stylesheet" href="./stylecocktail.css">
+</head>
+<body>
+  <h1>Cocktail Generator</h1>
+  <div class="container">
+    <section class="filters">
+      <h2>Filter by:</h2>
+      <ul>
+        <li>
+          <label for="spirit-types">Spirit Type:</label>
+          <div id="spirit-types">
+          </div>
+        </li>
+        <li>
+          <label for="flavor-profiles">Flavor Profile:</label>
+          <div id="flavor-profiles">
+          </div>
+        </li>
+      </ul>
+      <button id="generate-cocktail">Generate Cocktail</button>
+    </section>
+    <section id="cocktail-result">
+      <h2>Your Cocktail</h2>
+      <div id="cocktail-name"></div>
+      <div id="cocktail-ingredients"></div>
+      <div id="cocktail-instructions"></div>
+      <img id="cocktail-image" src="" alt="" style="display: none;">
+      <div id="cocktail-error"></div>
+    </section>
+  </div>
+
+  <script src="./scriptcocktail.js"></script>
+</body>
+</html>
