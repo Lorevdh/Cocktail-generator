@@ -60,7 +60,8 @@ h1 {
   display: inline-block;
 }
 
-#generate-cocktail {
+#generate-cocktail, #add-cocktail {
+  display: block;
   margin: 20px auto;
   background-color: rgb(255, 129, 27);
   color: #fff;
@@ -70,7 +71,7 @@ h1 {
   cursor: pointer;
 }
 
-#generate-cocktail:hover {
+#generate-cocktail:hover , #add-cocktail:hover {
   background-color: #c50d66;
 }
 
@@ -86,4 +87,23 @@ h1 {
   object-fit: cover;
   display: block; 
   margin: 10px auto; 
+}
+fieldset {
+  border: none;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+fieldset input,
+fieldset textarea {
+    display: block;
+    margin: 0.3rem auto 1rem auto; /* auto = centreren */
+    width: 20%;
+
+
+}
+fieldset label {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
 }
