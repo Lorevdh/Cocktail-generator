@@ -1,0 +1,11 @@
+{
+  "name": "cocktail-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Filterable cocktail generator with a data model built for quantities",
+  "scripts": {
+    "test": "node test/html-structure.test.js && node test/data-model.test.js",
+    "start": "python -m http.server 8000"
+  },
+  "license": "MIT"
+}

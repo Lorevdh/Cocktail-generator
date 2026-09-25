@@ -1,166 +1,252 @@
-
 [
-
   {
-      "name": "Old Fashioned",
-      "spiritType": "Whiskey",
-      "flavorProfile": "Sweet",
-      "ingredients": ["Whiskey", "Bitters", "Sugar", "Orange peel"],
-      "instructions": "Mix whiskey, bitters, and sugar in a glass. Garnish with orange peel.",
-      "image": "./img/OldFashioned.jpeg"
-
-    },
-    {
-      "name": "Margarita",
-      "spiritType": "Tequila",
-      "flavorProfile": "Sour",
-      "ingredients": ["Tequila", "Lime juice", "Triple sec", "Salt"],
-      "instructions": "Mix tequila, lime juice, and triple sec in a glass. Rim with salt.",
-      "image": "./img/Margarita.jpg"
-
-    },
-    {
-      "name": "Cosmopolitan",
-      "spiritType": "Vodka",
-      "flavorProfile": "Fruity",
-      "ingredients": ["Vodka", "Triple sec", "Cranberry juice", "Lime juice"],
-      "instructions": "Mix vodka, triple sec, cranberry juice, and lime juice in a glass. Garnish with lime wheel.",
-      "image": "./img/Cosmopolitan.jpeg"
-    },
-    {
-      "name": "Gin and Tonic",
-      "spiritType": "Gin",
-      "flavorProfile": "Crisp",
-      "ingredients": ["Gin", "Tonic water", "Lime"],
-      "instructions": "Mix gin and tonic water in a glass. Garnish with lime.",
-      "image": "./img/GinTonic.jpg"
-    },
-    {
-      "name": "Mojito",
-      "spiritType": "Rum",
-      "flavorProfile": "Herbal",
-      "ingredients": ["Rum", "Lime juice", "Mint leaves", "Soda water"],
-      "instructions": "Mix rum, lime juice, and mint leaves in a glass. Top with soda water.",
-      "image": "./img/Mojito.jpg"
-    },
-    {
-      "name": "Pina Colada",
-      "spiritType": "Rum",
-      "flavorProfile": "Sweet",
-      "ingredients": ["Rum", "Pineapple juice", "Coconut cream"],
-      "instructions": "Mix rum, pineapple juice, and coconut cream in a glass. Garnish with pineapple wedge and cherry.",
-      "image": "./img/pinaColada.jpeg"
-    },
-    {
-      "name": "Whiskey Sour",
-      "spiritType": "Whiskey",
-      "flavorProfile": "Sour",
-      "ingredients": ["Whiskey", "Lemon juice", "Simple syrup"],
-      "instructions": "Mix whiskey, lemon juice, and simple syrup in a glass. Garnish with lemon wheel.",
-      "image": "./img/WhiskeySour.jpg"
-    },
-    {
-      "name": "Caipirinha",
-      "spiritType": "Cachaça",
-      "flavorProfile": "Fruity",
-      "ingredients": ["Cachaça", "Lime wedges", "Sugar"],
-      "instructions": "Muddle lime wedges and sugar in a glass. Add cachaça and stir.",
-      "image": "./img/Caipirinha.jpg"
-    },
-    {
-      "name": "Dark 'N' Stormy",
-      "spiritType": "Rum",
-      "flavorProfile": "Spicy",
-      "ingredients": ["Rum", "Ginger beer", "Lime juice"],
-      "instructions": "Mix rum, ginger beer, and lime juice in a glass. Garnish with lime wedge.",
-      "image": "./img/DarkNStormy.jpeg"
-    },
-    {
-      "name": "Sidecar",
-      "spiritType": "Cognac",
-      "flavorProfile": "Sweet",
-      "ingredients": ["Cognac", "Cointreau", "Lemon juice"],
-      "instructions": "Mix cognac, Cointreau, and lemon juice in a glass. Garnish with lemon wheel.",
-      "image": "./img/Sidecar.jpg"
-    },
-    {
-      "name": "Moscow Mule",
-      "spiritType": "Vodka",
-      "flavorProfile": "Spicy",
-      "ingredients": ["Vodka", "Ginger beer", "Lime juice"],
-      "instructions": "Mix vodka, ginger beer, and lime juice in a copper mug. Garnish with lime wedge and mint sprig.",
-      "image": "./img/moscowMule.jpeg"
-    },
-    {
-      "name": "Daiquiri",
-      "spiritType": "Rum",
-      "flavorProfile": "Sweet",
-      "ingredients": ["Rum", "Lime juice", "Simple syrup"],
-      "instructions": "Mix rum, lime juice, and simple syrup in a glass. Garnish with lime wheel.",
-      "image": "./img/Daiquiri.jpg"
-    },
-    {
-      "name": "Sazerac",
-      "spiritType": "Whiskey",
-      "flavorProfile": "Herbal",
-      "ingredients": ["Whiskey", "Absinthe", "Bitters", "Sugar"],
-      "instructions": "Mix whiskey, absinthe, bitters, and sugar in a glass. Garnish with lemon twist.",
-      "image": "./img/Sazerac.jpg"
-    },
-    {
-      "name": "Pimm's Cup",
-      "spiritType": "Gin",
-      "flavorProfile": "Fruity",
-      "ingredients": ["Pimm's No. 1", "Lemonade", "Garnish with cucumber and mint"],
-      "instructions": "Mix Pimm's No. 1 and lemonade in a glass. Garnish with cucumber and mint.",
-      "image": "./img/Pimmscup.jpg"
-    },
-    {
-      "name": "Espresso Martini",
-      "spiritType": "Vodka",
-      "flavorProfile": "Rich",
-      "ingredients": ["Vodka", "Espresso", "Kahlúa", "Sugar"],
-      "instructions": "Mix vodka, espresso, Kahlúa, and sugar in a glass. Garnish with coffee beans.",
-      "image": "./img/EspressoMartini.jpg"
-    },
-    {
-      "name": "French 75",
-      "spiritType": "Gin",
-      "flavorProfile": "Crisp",
-      "ingredients": ["Gin", "Lemon juice", "Sugar", "Champagne"],
-      "instructions": "Mix gin, lemon juice, and sugar in a glass. Top with champagne. Garnish with lemon twist.",
-      "image":"./img/French75.jpg"
-    },
-    {
-      "name": " Mai Tai",
-      "spiritType": "Rum",
-      "flavorProfile": "Fruity",
-      "ingredients": ["Rum", "Orange curaçao", "Lime juice", "Orgeat syrup"],
-      "instructions": "Mix rum, orange curaçao, lime juice, and orgeat syrup in a glass. Garnish with mint sprig and cherry.",
-      "image": "./img/MaiTai.jpeg"
-    },
-    {
-      "name": "Negroni",
-      "spiritType": "Gin",
-      "flavorProfile": "Bitter",
-      "ingredients": ["Gin", "Campari", "Sweet vermouth"],
-      "instructions": "Mix gin, Campari, and sweet vermouth in a glass. Garnish with orange twist.",
-      "image": "./img/Negroni.jpg"
-    },
-    {
-      "name": "Cuba Libre",
-      "spiritType": "Rum",
-      "flavorProfile": "Sweet",
-      "ingredients": ["Rum", "Coca-Cola", "Lime juice"],
-      "instructions": "Mix rum and Coca-Cola in a glass. Squeeze in lime juice. Garnish with lime wedge.",
-      "image": "./img/cubaLibre.jpeg"
-    },
-    {
-      "name": "Bee's Knees",
-      "spiritType": "Gin",
-      "flavorProfile": "Sweet",
-      "ingredients": ["Gin", "Honey syrup", "Lemon juice"],
-      "instructions": "Mix gin, honey syrup, and lemon juice in a glass. Garnish with lemon wheel.",
-      "image": "./img/beesKnees.jpeg"
-    }
-  ]
+    "name": "Old Fashioned",
+    "spiritType": "Whiskey",
+    "flavorProfile": "Sweet",
+    "ingredients": [
+      { "name": "Whiskey", "amount": 60, "unit": "ml" },
+      { "name": "Bitters", "amount": 5, "unit": "ml" },
+      { "name": "Sugar syrup", "amount": 5, "unit": "ml" },
+      { "name": "Orange peel", "amount": null, "unit": null }
+    ],
+    "instructions": "Stir whiskey, bitters and sugar syrup with ice in a rocks glass. Strain over fresh ice and garnish with an orange peel.",
+    "image": "./img/OldFashioned.jpeg"
+  },
+  {
+    "name": "Margarita",
+    "spiritType": "Tequila",
+    "flavorProfile": "Sour",
+    "ingredients": [
+      { "name": "Tequila", "amount": 50, "unit": "ml" },
+      { "name": "Lime juice", "amount": 25, "unit": "ml" },
+      { "name": "Triple sec", "amount": 20, "unit": "ml" },
+      { "name": "Salt", "amount": null, "unit": null }
+    ],
+    "instructions": "Rim a coupe glass with salt. Shake tequila, lime juice and triple sec with ice, then strain into the glass.",
+    "image": "./img/Margarita.jpg"
+  },
+  {
+    "name": "Cosmopolitan",
+    "spiritType": "Vodka",
+    "flavorProfile": "Fruity",
+    "ingredients": [
+      { "name": "Vodka", "amount": 40, "unit": "ml" },
+      { "name": "Triple sec", "amount": 15, "unit": "ml" },
+      { "name": "Cranberry juice", "amount": 30, "unit": "ml" },
+      { "name": "Lime juice", "amount": 15, "unit": "ml" }
+    ],
+    "instructions": "Shake vodka, triple sec, cranberry juice and lime juice with ice. Strain into a martini glass and garnish with a lime wheel.",
+    "image": "./img/Cosmopolitan.jpeg"
+  },
+  {
+    "name": "Gin and Tonic",
+    "spiritType": "Gin",
+    "flavorProfile": "Crisp",
+    "ingredients": [
+      { "name": "Gin", "amount": 50, "unit": "ml" },
+      { "name": "Tonic water", "amount": 150, "unit": "ml" },
+      { "name": "Lime", "amount": null, "unit": null }
+    ],
+    "instructions": "Fill a highball glass with ice, pour over the gin and top with chilled tonic water. Garnish with a lime wedge.",
+    "image": "./img/GinTonic.jpg"
+  },
+  {
+    "name": "Mojito",
+    "spiritType": "Rum",
+    "flavorProfile": "Herbal",
+    "ingredients": [
+      { "name": "Rum", "amount": 50, "unit": "ml" },
+      { "name": "Lime juice", "amount": 25, "unit": "ml" },
+      { "name": "Sugar syrup", "amount": 15, "unit": "ml" },
+      { "name": "Mint leaves", "amount": 8, "unit": null },
+      { "name": "Soda water", "amount": 60, "unit": "ml" }
+    ],
+    "instructions": "Lightly press the mint leaves with the sugar syrup, add rum and lime juice, fill with crushed ice, then top with soda water and stir once.",
+    "image": "./img/Mojito.jpg"
+  },
+  {
+    "name": "Pina Colada",
+    "spiritType": "Rum",
+    "flavorProfile": "Sweet",
+    "ingredients": [
+      { "name": "Rum", "amount": 50, "unit": "ml" },
+      { "name": "Pineapple juice", "amount": 60, "unit": "ml" },
+      { "name": "Coconut cream", "amount": 40, "unit": "ml" }
+    ],
+    "instructions": "Blend rum, pineapple juice and coconut cream with crushed ice until smooth. Pour into a hurricane glass and garnish with a pineapple wedge and a cherry.",
+    "image": "./img/pinaColada.jpeg"
+  },
+  {
+    "name": "Whiskey Sour",
+    "spiritType": "Whiskey",
+    "flavorProfile": "Sour",
+    "ingredients": [
+      { "name": "Whiskey", "amount": 50, "unit": "ml" },
+      { "name": "Lemon juice", "amount": 25, "unit": "ml" },
+      { "name": "Simple syrup", "amount": 20, "unit": "ml" }
+    ],
+    "instructions": "Shake whiskey, lemon juice and simple syrup with ice. Strain over fresh ice and garnish with a lemon wheel.",
+    "image": "./img/WhiskeySour.jpg"
+  },
+  {
+    "name": "Caipirinha",
+    "spiritType": "Cachaça",
+    "flavorProfile": "Fruity",
+    "ingredients": [
+      { "name": "Cachaça", "amount": 50, "unit": "ml" },
+      { "name": "Lime", "amount": 4, "unit": "wedges" },
+      { "name": "Sugar", "amount": 2, "unit": "tsp" }
+    ],
+    "instructions": "Muddle the lime wedges with the sugar in a rocks glass, fill with crushed ice, add the cachaça and stir briefly.",
+    "image": "./img/Caipirinha.jpg"
+  },
+  {
+    "name": "Dark 'N' Stormy",
+    "spiritType": "Rum",
+    "flavorProfile": "Spicy",
+    "ingredients": [
+      { "name": "Rum", "amount": 60, "unit": "ml" },
+      { "name": "Ginger beer", "amount": 100, "unit": "ml" },
+      { "name": "Lime juice", "amount": 15, "unit": "ml" }
+    ],
+    "instructions": "Build rum and ginger beer over ice in a highball glass, add the lime juice and stir once. Garnish with a lime wedge.",
+    "image": "./img/DarkNStormy.jpeg"
+  },
+  {
+    "name": "Sidecar",
+    "spiritType": "Cognac",
+    "flavorProfile": "Sweet",
+    "ingredients": [
+      { "name": "Cognac", "amount": 50, "unit": "ml" },
+      { "name": "Cointreau", "amount": 20, "unit": "ml" },
+      { "name": "Lemon juice", "amount": 20, "unit": "ml" }
+    ],
+    "instructions": "Shake cognac, Cointreau and lemon juice with ice. Strain into a chilled coupe and rim with sugar.",
+    "image": "./img/Sidecar.jpg"
+  },
+  {
+    "name": "Moscow Mule",
+    "spiritType": "Vodka",
+    "flavorProfile": "Spicy",
+    "ingredients": [
+      { "name": "Vodka", "amount": 50, "unit": "ml" },
+      { "name": "Ginger beer", "amount": 100, "unit": "ml" },
+      { "name": "Lime juice", "amount": 15, "unit": "ml" }
+    ],
+    "instructions": "Build vodka and ginger beer over ice in a copper mug, add the lime juice and stir. Garnish with a lime wedge and a mint sprig.",
+    "image": "./img/moscowMule.jpeg"
+  },
+  {
+    "name": "Daiquiri",
+    "spiritType": "Rum",
+    "flavorProfile": "Sweet",
+    "ingredients": [
+      { "name": "Rum", "amount": 60, "unit": "ml" },
+      { "name": "Lime juice", "amount": 25, "unit": "ml" },
+      { "name": "Simple syrup", "amount": 15, "unit": "ml" }
+    ],
+    "instructions": "Shake rum, lime juice and simple syrup hard with ice. Strain into a chilled coupe.",
+    "image": "./img/Daiquiri.jpg"
+  },
+  {
+    "name": "Sazerac",
+    "spiritType": "Whiskey",
+    "flavorProfile": "Herbal",
+    "ingredients": [
+      { "name": "Whiskey", "amount": 60, "unit": "ml" },
+      { "name": "Absinthe", "amount": 10, "unit": "ml" },
+      { "name": "Bitters", "amount": 5, "unit": "ml" },
+      { "name": "Sugar", "amount": 5, "unit": "ml" }
+    ],
+    "instructions": "Rinse a chilled rocks glass with absinthe and discard the excess. Stir whiskey, bitters and sugar with ice, strain over fresh ice and garnish with a lemon twist.",
+    "image": "./img/Sazerac.jpg"
+  },
+  {
+    "name": "Pimm's Cup",
+    "spiritType": "Gin",
+    "flavorProfile": "Fruity",
+    "ingredients": [
+      { "name": "Pimm's No. 1", "amount": 50, "unit": "ml" },
+      { "name": "Lemonade", "amount": 100, "unit": "ml" },
+      { "name": "Cucumber", "amount": 2, "unit": "slices" },
+      { "name": "Mint leaves", "amount": null, "unit": null }
+    ],
+    "instructions": "Build Pimm's No. 1 and lemonade over ice in a tall glass. Garnish with cucumber slices and a mint sprig.",
+    "image": "./img/Pimmscup.jpg"
+  },
+  {
+    "name": "Espresso Martini",
+    "spiritType": "Vodka",
+    "flavorProfile": "Rich",
+    "ingredients": [
+      { "name": "Vodka", "amount": 40, "unit": "ml" },
+      { "name": "Espresso", "amount": 30, "unit": "ml" },
+      { "name": "Kahlúa", "amount": 20, "unit": "ml" },
+      { "name": "Sugar syrup", "amount": 10, "unit": "ml" }
+    ],
+    "instructions": "Shake vodka, espresso, Kahlúa and sugar syrup hard with ice. Strain into a chilled coupe and garnish with coffee beans.",
+    "image": "./img/EspressoMartini.jpg"
+  },
+  {
+    "name": "French 75",
+    "spiritType": "Gin",
+    "flavorProfile": "Crisp",
+    "ingredients": [
+      { "name": "Gin", "amount": 30, "unit": "ml" },
+      { "name": "Lemon juice", "amount": 15, "unit": "ml" },
+      { "name": "Sugar syrup", "amount": 15, "unit": "ml" },
+      { "name": "Champagne", "amount": 60, "unit": "ml" }
+    ],
+    "instructions": "Shake gin, lemon juice and sugar syrup with ice, strain into a flute, then top with chilled champagne. Garnish with a lemon twist.",
+    "image": "./img/French75.jpg"
+  },
+  {
+    "name": "Mai Tai",
+    "spiritType": "Rum",
+    "flavorProfile": "Fruity",
+    "ingredients": [
+      { "name": "Rum", "amount": 30, "unit": "ml" },
+      { "name": "Orange curaçao", "amount": 15, "unit": "ml" },
+      { "name": "Lime juice", "amount": 25, "unit": "ml" },
+      { "name": "Orgeat syrup", "amount": 15, "unit": "ml" }
+    ],
+    "instructions": "Shake rum, orange curaçao, lime juice and orgeat syrup with ice. Pour unstrained into a rocks glass and garnish with a mint sprig and a cherry.",
+    "image": "./img/MaiTai.jpeg"
+  },
+  {
+    "name": "Negroni",
+    "spiritType": "Gin",
+    "flavorProfile": "Bitter",
+    "ingredients": [
+      { "name": "Gin", "amount": 30, "unit": "ml" },
+      { "name": "Campari", "amount": 30, "unit": "ml" },
+      { "name": "Sweet vermouth", "amount": 30, "unit": "ml" }
+    ],
+    "instructions": "Stir gin, Campari and sweet vermouth with ice for about 20 seconds. Strain over a large ice cube and garnish with an orange twist.",
+    "image": "./img/Negroni.jpg"
+  },
+  {
+    "name": "Cuba Libre",
+    "spiritType": "Rum",
+    "flavorProfile": "Sweet",
+    "ingredients": [
+      { "name": "Rum", "amount": 50, "unit": "ml" },
+      { "name": "Coca-Cola", "amount": 120, "unit": "ml" },
+      { "name": "Lime juice", "amount": 15, "unit": "ml" }
+    ],
+    "instructions": "Squeeze lime juice into a highball glass, add the rum, fill with ice and top with Coca-Cola. Garnish with a lime wedge.",
+    "image": "./img/cubaLibre.jpeg"
+  },
+  {
+    "name": "Bee's Knees",
+    "spiritType": "Gin",
+    "flavorProfile": "Sweet",
+    "ingredients": [
+      { "name": "Gin", "amount": 50, "unit": "ml" },
+      { "name": "Honey syrup", "amount": 20, "unit": "ml" },
+      { "name": "Lemon juice", "amount": 20, "unit": "ml" }
+    ],
+    "instructions": "Shake gin, honey syrup and lemon juice with ice. Strain into a chilled coupe and garnish with a lemon wheel.",
+    "image": "./img/beesKnees.jpeg"
+  }
+]
